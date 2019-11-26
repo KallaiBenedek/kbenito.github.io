@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kállai Benedek | Grafikák</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="third"><a href="/"><img class="logo" src="images/DSCF0807k.jpg" /></a></div>
+                <div class="two_third">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html#intro">Bemutatkozás</a></li>
+                            <li><a href="index.html#hajo">Hajók</a></li>
+                            <li><a href="index.html#makett">Egyéb makettek</a></li>
+                            <li><a href="index.html#vizual">Vizuális alkotásaim</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container galeria">
+            <h2>Vizuális alkotásaim</h2>
+            <div class="row" id="cruise">
+                <h4>"Cruise the seas"</h4>
+            </div>
+            <div class="row">
+                <div class="third content-in_img">
+                    <img src="images/deszka6.jpg" /></div>
+                <div class="third content-in_img">
+                    <img src="images/deszka1.jpg" /></div>
+                <div class="third content-in_img">
+                    <img src="images/deszka2.jpg" /></div>
+                
+            </div>
+            <div class="row">
+                <div class="third content-in_img">
+                    <img src="images/deszka3.jpg" /></div>
+                <div class="third content-in_img">
+                    <img src="images/deszka4.jpg" /></div>
+                <div class="third content-in_img">
+                    <img src="images/deszka5.jpg" /></div>
+            </div>
+            <div class="row" id="celtic">
+                <h4>Celtic skate</h4>
+            </div>
+            <div class="row">
+                <div class="fourth content-in_img">
+                    <img src="images/kelta.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/DSCF0802.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/DSCF0805.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/DSCF0806.jpg" /></div>
+            </div>
+            <div class="row">
+                <div class="fourth content-in_img">
+                    <img src="images/DSCF0807.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/DSCF0810.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/DSCF0811.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/IMG_20191117_162526.jpg" /></div>
+            </div>
+            <div class="row" id="grafit">
+                <h4>Grafitos és egyetemi rajzok</h4>
+            </div>
+            <div class="row">
+                <div class="fourth content-in_img">
+                    <img src="images/lany.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/ksandor.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/ksandor2.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/sarkany.jpg" /></div>
+            </div>
+            <div class="row" id="egyetemirajz">
+                <div class="fourth content-in_img">
+                    <img src="images/piros.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/korongozo.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/szek.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/zold.jpg" /></div>
+            </div>
+            <div class="row" id="graffiti">
+                <h4>Graffiti&pingálmányok</h4>
+            </div>
+            <div class="row">
+                <div class="fourth content-in_img">
+                    <img src="images/vaza1.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/vaza2.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/vaza3.jpg" /></div>
+                <div class="fourth content-in_img">
+                    <img src="images/vaza4.jpg" /></div>
+            </div>
+            <div class="row">
+                <div class="third content-in_img">
+                    <img src="images/hiuz.jpg" /></div>
+                <div class="third content-in_img">
+                    <img src="images/NewHorizons.jpg" /></div>
+                <div class="third content-in_img">
+                    <img src="images/szekrény1.jpg" /></div>
+            </div>
+            <div class="row" id="szekreny">
+                <div class="third content-in_img">
+                    <img src="images/26731612_497748503952725_1651130162417591730_n.jpg" /></div>
+                <div class="third content-in_img">
+                    <img src="images/26733709_497748440619398_1863267408631470717_n.jpg" /></div>
+                <div class="third content-in_img">
+                    <img src="images/26903727_497748470619395_6935053231895823751_n.jpg" /></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid kapcsolat" id="kapcsolat">
+            <div class="name">Kállai Benedek</div>
+            <div class="data">kallai.benedek@gmail.com</div>
+            <div class="data">linkedIn-profil</div>
+            <div>
+                Kállai Benedek © <span id="year"></span> Minden jog fenntartva.
+            </div>
+        </div>
+    </footer>
+    <script>
+        var d = new Date();
+        var n = d.getFullYear();
+        document.getElementById("year").innerHTML = n;
+
+    </script>
+</body>
+
+</html>

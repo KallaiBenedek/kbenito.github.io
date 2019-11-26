@@ -1,0 +1,21 @@
+@media (max-width: 1200px){
+    .profil {
+        width: 100%;
+    }
+}
+
+@media (max-width: 769px){
+    nav li {
+        display: block;
+    }
+}
+
+@media (max-width: 769px){
+    .half,
+    .third,
+    .two_third,
+    .fourth,
+    .three_fourth{
+        width: 100%;
+    }
+}
